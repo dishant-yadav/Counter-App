@@ -6,8 +6,8 @@ const App = () => {
   
   // logic to store the data in localstorage
   
-  const reloadStatus = window.performance.getEntriesByType("navigation")[0].type;
-  if (reloadStatus === "reload") {
+  // const reloadStatus = window.performance.getEntriesByType("navigation")[0].type;
+  // if (reloadStatus === "reload") {
   //   localStorage.setItem("counter", counter);
   // }
 
